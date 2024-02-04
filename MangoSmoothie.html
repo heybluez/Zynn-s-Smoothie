@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>All Products - Zynn's Smoothie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+  
+ <div class="container">
+  <div class="navbar">
+    <div class="logo">
+    <a href="HOMEPAGE.html"><img src="logo .jpg" width="125px"></a>
+    </div>
+    <nav>
+       <ul id="MenuItems">
+          <li><a href="HOMEPAGE.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Feedback</a></li>
+          <li><a href="account.html">Account</a></li>
+       </ul>
+
+
+    </nav>
+
+    <a href="cart.html"><img src="images.png" width="30px" height="30px"></a>
+    <img src="menu.svg" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+ </div>
+ 
+ </div>
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="mango-smoothie.jpg" width="100%">
+
+            </div>
+
+        </div>
+        <div class="col-2">
+          <p>Home / Smoothie</p>
+          <h1>Mango Smoothie</h1>
+          <h4>RM9</h4>
+          <select>
+            <option>Drink Size</option>
+            <option>Regular</option>
+            <option>Large</option>
+            <option>Small</option>
+
+          </select>
+            <input type="number" value="1">
+            <a href=""class="btn">Add To Cart</a>
+
+            <h3>Product Details</h3>
+            <p>Sweet and sour, perfect for the mango lovers.</p>
+        </div>
+    </div>
+</div>
+
+   <div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+
+   </div>
+      
+
+   </div>
+   <div class="small-container">
+     
+           
+
+        <div class="row">
+            <div class="col-4">
+               <a href="kiwismoothie.html"><img src="kiwi-smoothie-hero-cropped.webp" ></a>
+               <a href="kiwismoothie.html"><h4>Kiwi Smoothie</h4></a>
+               <div class="rating">
+                  <p>⭐⭐⭐⭐</p>
+               </div>
+               <p>RM11.00</p>
+            </div>
+            </div>
+
+            <div class="row">
+               <div class="col-4">
+                  <a href="peachsmoothie.html"><img src="Pretty-in-Pink-Peach-Smoothie-6.webp" ></a>
+                  <a href="peachsmoothie.html"><h4>Peach Smoothie</h4></a>
+                  <div class="rating">
+                     <p>⭐⭐⭐⭐⭐</p>
+                  </div>
+                  <p>RM11.00</p>
+               </div>
+               </div>
+
+              
+            
+
+<div class="footer">
+   <div class="container">
+      <div class="row">
+
+         <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo"></div>
+              <img src="appstores.png">
+              <img src="googleplay.png">
+              
+         </div>
+         <div class="footer-col-2">
+            <img src="logo .jpg">
+            <p>Our Purpose Is To Sustainably Make The Pleasure to Smoothie Lover All Around The World.</p>
+         </div>
+
+            <div class="footer-col-3">
+            <h3>Useful Links
+            </h3>
+            <ul>
+               <li>Coupons</li>
+               <li>Blog Post</li>
+               <li>Return Policy</li>
+               <li>Join Affliate</li>
+            </ul>
+            </div>
+
+            <div class="footer-col-4">
+               <h3>Follow Us 
+               </h3>
+               <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Youtube</li>
+                  <li>Instagram</li>
+               </ul>
+               </div>
+         
+      </div>
+      <hr>
+        <p class="copyright">Copyright 2024 - Zynn's Smoothie</p>
+   </div>
+</div>
+
+<script>
+   var MenuItems = document.getElementById(MenuItems);
+
+   MenuItems.style.maxHeight="0px";
+
+   function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+         MenuItems.style.maxHeight="200px";
+      }
+      else 
+       {
+         MenuItems.style.maxHeight="0px";
+       }
+      }
+
+   
+</script>
+
+
+
+
+</body>
+</html>
